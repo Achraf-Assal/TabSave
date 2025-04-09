@@ -1,0 +1,67 @@
+body {
+    width: 300px;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .save-section {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    flex: 1;
+    padding: 5px;
+  }
+  
+  button {
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+
+.delete{
+    background: rgb(226, 12, 12);
+    color: white;
+  }
+.delete:hover {
+    background: #7a0505;
+  } 
+.restore{
+    background: #4CAF50;
+    color: white;
+  }
+.restore:hover {
+    background: #45a049;
+  } 
+.save{
+    background: #082fdf;
+    color: white;
+  }
+.save:hover {
+    background: #3555e6;
+  } 
+
+  
+  .session-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+  }
+  
+  .session-actions {
+    display: flex;
+    gap: 5px;
+  }
